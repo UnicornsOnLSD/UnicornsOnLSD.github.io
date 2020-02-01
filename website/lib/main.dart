@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:website/github_icon_icons.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() => runApp(MyApp());
 
