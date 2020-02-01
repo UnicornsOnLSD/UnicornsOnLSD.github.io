@@ -15,14 +15,13 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Text(
-                "James Harvey",
-                style: TextStyle(fontSize: 72),
-              ),
+              Text("James Harvey",
+                  style: TextStyle(fontSize: 72),
+                  textAlign: TextAlign.center,
+                  maxLines: 2),
               ButtonBar(
-                //mainAxisAlignment: MainAxisAlignment.center,
-                //crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisSize: MainAxisSize.min,
+                alignment: MainAxisAlignment.center,
                 children: <Widget>[
                   RaisedButton.icon(
                     icon: Icon(GithubIcon.github),
